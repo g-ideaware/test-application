@@ -39,18 +39,18 @@
 		2E625EA7159CC334001E4EE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E625EA9159CC334001E4EE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2E625EAB159CC334001E4EE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2E625EAF159CC334001E4EE3 /* iDientes-Info.plist */ = {isa = PBXFileReference; path = "iDientes-Info.plist"; sourceTree = "<group>"; };
+		2E625EAF159CC334001E4EE3 /* iDientes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDientes-Info.plist"; sourceTree = "<group>"; };
 		2E625EB1159CC334001E4EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E625EB3159CC334001E4EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E625EB5159CC334001E4EE3 /* iDientes-Prefix.pch */ = {isa = PBXFileReference; path = "iDientes-Prefix.pch"; sourceTree = "<group>"; };
-		2E625EB6159CC334001E4EE3 /* iDientesAppDelegate.h */ = {isa = PBXFileReference; path = iDientesAppDelegate.h; sourceTree = "<group>"; };
+		2E625EB5159CC334001E4EE3 /* iDientes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDientes-Prefix.pch"; sourceTree = "<group>"; };
+		2E625EB6159CC334001E4EE3 /* iDientesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDientesAppDelegate.h; sourceTree = "<group>"; };
 		2E625EB7159CC334001E4EE3 /* iDientesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDientesAppDelegate.m; sourceTree = "<group>"; };
 		2E625EBA159CC334001E4EE3 /* iDientes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDientes.xcdatamodel; sourceTree = "<group>"; };
 		2E625EC1159CC334001E4EE3 /* iDientesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDientesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E625EC2159CC334001E4EE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2E625ECB159CC334001E4EE3 /* iDientesTests-Info.plist */ = {isa = PBXFileReference; path = "iDientesTests-Info.plist"; sourceTree = "<group>"; };
+		2E625ECB159CC334001E4EE3 /* iDientesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDientesTests-Info.plist"; sourceTree = "<group>"; };
 		2E625ECD159CC334001E4EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E625ECF159CC334001E4EE3 /* iDientesTests.h */ = {isa = PBXFileReference; path = iDientesTests.h; sourceTree = "<group>"; };
+		2E625ECF159CC334001E4EE3 /* iDientesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDientesTests.h; sourceTree = "<group>"; };
 		2E625ED0159CC334001E4EE3 /* iDientesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDientesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
