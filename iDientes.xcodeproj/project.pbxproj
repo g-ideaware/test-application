@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E625EA6159CC334001E4EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EA5159CC334001E4EE3 /* UIKit.framework */; };
+		2E625EA8159CC334001E4EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EA7159CC334001E4EE3 /* Foundation.framework */; };
+		2E625EAA159CC334001E4EE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EA9159CC334001E4EE3 /* CoreGraphics.framework */; };
+		2E625EAC159CC334001E4EE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EAB159CC334001E4EE3 /* CoreData.framework */; };
+		2E625EB2159CC334001E4EE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E625EB0159CC334001E4EE3 /* InfoPlist.strings */; };
+		2E625EB4159CC334001E4EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E625EB3159CC334001E4EE3 /* main.m */; };
+		2E625EB8159CC334001E4EE3 /* iDientesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E625EB7159CC334001E4EE3 /* iDientesAppDelegate.m */; };
+		2E625EBB159CC334001E4EE3 /* iDientes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E625EB9159CC334001E4EE3 /* iDientes.xcdatamodeld */; };
+		2E625EC3159CC334001E4EE3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EC2159CC334001E4EE3 /* SenTestingKit.framework */; };
+		2E625EC4159CC334001E4EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EA5159CC334001E4EE3 /* UIKit.framework */; };
+		2E625EC5159CC334001E4EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EA7159CC334001E4EE3 /* Foundation.framework */; };
+		2E625EC6159CC334001E4EE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E625EAB159CC334001E4EE3 /* CoreData.framework */; };
+		2E625ECE159CC334001E4EE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E625ECC159CC334001E4EE3 /* InfoPlist.strings */; };
+		2E625ED1159CC334001E4EE3 /* iDientesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E625ED0159CC334001E4EE3 /* iDientesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E625EC7159CC334001E4EE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E625E98159CC334001E4EE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E625EA0159CC334001E4EE3;
+			remoteInfo = iDientes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E625EA1159CC334001E4EE3 /* iDientes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDientes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E625EA5159CC334001E4EE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E625EA7159CC334001E4EE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E625EA9159CC334001E4EE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E625EAB159CC334001E4EE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E625EAF159CC334001E4EE3 /* iDientes-Info.plist */ = {isa = PBXFileReference; path = "iDientes-Info.plist"; sourceTree = "<group>"; };
+		2E625EB1159CC334001E4EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E625EB3159CC334001E4EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E625EB5159CC334001E4EE3 /* iDientes-Prefix.pch */ = {isa = PBXFileReference; path = "iDientes-Prefix.pch"; sourceTree = "<group>"; };
+		2E625EB6159CC334001E4EE3 /* iDientesAppDelegate.h */ = {isa = PBXFileReference; path = iDientesAppDelegate.h; sourceTree = "<group>"; };
+		2E625EB7159CC334001E4EE3 /* iDientesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDientesAppDelegate.m; sourceTree = "<group>"; };
+		2E625EBA159CC334001E4EE3 /* iDientes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDientes.xcdatamodel; sourceTree = "<group>"; };
+		2E625EC1159CC334001E4EE3 /* iDientesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDientesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E625EC2159CC334001E4EE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E625ECB159CC334001E4EE3 /* iDientesTests-Info.plist */ = {isa = PBXFileReference; path = "iDientesTests-Info.plist"; sourceTree = "<group>"; };
+		2E625ECD159CC334001E4EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E625ECF159CC334001E4EE3 /* iDientesTests.h */ = {isa = PBXFileReference; path = iDientesTests.h; sourceTree = "<group>"; };
+		2E625ED0159CC334001E4EE3 /* iDientesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDientesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E625E9E159CC334001E4EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625EA6159CC334001E4EE3 /* UIKit.framework in Frameworks */,
+				2E625EA8159CC334001E4EE3 /* Foundation.framework in Frameworks */,
+				2E625EAA159CC334001E4EE3 /* CoreGraphics.framework in Frameworks */,
+				2E625EAC159CC334001E4EE3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E625EBD159CC334001E4EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625EC3159CC334001E4EE3 /* SenTestingKit.framework in Frameworks */,
+				2E625EC4159CC334001E4EE3 /* UIKit.framework in Frameworks */,
+				2E625EC5159CC334001E4EE3 /* Foundation.framework in Frameworks */,
+				2E625EC6159CC334001E4EE3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E625E96159CC334001E4EE3 = {
+			isa = PBXGroup;
+			children = (
+				2E625EAD159CC334001E4EE3 /* iDientes */,
+				2E625EC9159CC334001E4EE3 /* iDientesTests */,
+				2E625EA4159CC334001E4EE3 /* Frameworks */,
+				2E625EA2159CC334001E4EE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E625EA2159CC334001E4EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E625EA1159CC334001E4EE3 /* iDientes.app */,
+				2E625EC1159CC334001E4EE3 /* iDientesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E625EA4159CC334001E4EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E625EA5159CC334001E4EE3 /* UIKit.framework */,
+				2E625EA7159CC334001E4EE3 /* Foundation.framework */,
+				2E625EA9159CC334001E4EE3 /* CoreGraphics.framework */,
+				2E625EAB159CC334001E4EE3 /* CoreData.framework */,
+				2E625EC2159CC334001E4EE3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E625EAD159CC334001E4EE3 /* iDientes */ = {
+			isa = PBXGroup;
+			children = (
+				2E625EB6159CC334001E4EE3 /* iDientesAppDelegate.h */,
+				2E625EB7159CC334001E4EE3 /* iDientesAppDelegate.m */,
+				2E625EB9159CC334001E4EE3 /* iDientes.xcdatamodeld */,
+				2E625EAE159CC334001E4EE3 /* Supporting Files */,
+			);
+			path = iDientes;
+			sourceTree = "<group>";
+		};
+		2E625EAE159CC334001E4EE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E625EAF159CC334001E4EE3 /* iDientes-Info.plist */,
+				2E625EB0159CC334001E4EE3 /* InfoPlist.strings */,
+				2E625EB3159CC334001E4EE3 /* main.m */,
+				2E625EB5159CC334001E4EE3 /* iDientes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E625EC9159CC334001E4EE3 /* iDientesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E625ECF159CC334001E4EE3 /* iDientesTests.h */,
+				2E625ED0159CC334001E4EE3 /* iDientesTests.m */,
+				2E625ECA159CC334001E4EE3 /* Supporting Files */,
+			);
+			path = iDientesTests;
+			sourceTree = "<group>";
+		};
+		2E625ECA159CC334001E4EE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E625ECB159CC334001E4EE3 /* iDientesTests-Info.plist */,
+				2E625ECC159CC334001E4EE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E625EA0159CC334001E4EE3 /* iDientes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E625ED4159CC334001E4EE3 /* Build configuration list for PBXNativeTarget "iDientes" */;
+			buildPhases = (
+				2E625E9D159CC334001E4EE3 /* Sources */,
+				2E625E9E159CC334001E4EE3 /* Frameworks */,
+				2E625E9F159CC334001E4EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDientes;
+			productName = iDientes;
+			productReference = 2E625EA1159CC334001E4EE3 /* iDientes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E625EC0159CC334001E4EE3 /* iDientesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E625ED7159CC334001E4EE3 /* Build configuration list for PBXNativeTarget "iDientesTests" */;
+			buildPhases = (
+				2E625EBC159CC334001E4EE3 /* Sources */,
+				2E625EBD159CC334001E4EE3 /* Frameworks */,
+				2E625EBE159CC334001E4EE3 /* Resources */,
+				2E625EBF159CC334001E4EE3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E625EC8159CC334001E4EE3 /* PBXTargetDependency */,
+			);
+			name = iDientesTests;
+			productName = iDientesTests;
+			productReference = 2E625EC1159CC334001E4EE3 /* iDientesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E625E98159CC334001E4EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iDientes;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2E625E9B159CC334001E4EE3 /* Build configuration list for PBXProject "iDientes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E625E96159CC334001E4EE3;
+			productRefGroup = 2E625EA2159CC334001E4EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E625EA0159CC334001E4EE3 /* iDientes */,
+				2E625EC0159CC334001E4EE3 /* iDientesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E625E9F159CC334001E4EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625EB2159CC334001E4EE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E625EBE159CC334001E4EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625ECE159CC334001E4EE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E625EBF159CC334001E4EE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E625E9D159CC334001E4EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625EB4159CC334001E4EE3 /* main.m in Sources */,
+				2E625EB8159CC334001E4EE3 /* iDientesAppDelegate.m in Sources */,
+				2E625EBB159CC334001E4EE3 /* iDientes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E625EBC159CC334001E4EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E625ED1159CC334001E4EE3 /* iDientesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E625EC8159CC334001E4EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E625EA0159CC334001E4EE3 /* iDientes */;
+			targetProxy = 2E625EC7159CC334001E4EE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E625EB0159CC334001E4EE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E625EB1159CC334001E4EE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E625ECC159CC334001E4EE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E625ECD159CC334001E4EE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E625ED2159CC334001E4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2E625ED3159CC334001E4EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E625ED5159CC334001E4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDientes/iDientes-Prefix.pch";
+				INFOPLIST_FILE = "iDientes/iDientes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E625ED6159CC334001E4EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDientes/iDientes-Prefix.pch";
+				INFOPLIST_FILE = "iDientes/iDientes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2E625ED8159CC334001E4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDientes.app/iDientes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDientes/iDientes-Prefix.pch";
+				INFOPLIST_FILE = "iDientesTests/iDientesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2E625ED9159CC334001E4EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDientes.app/iDientes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDientes/iDientes-Prefix.pch";
+				INFOPLIST_FILE = "iDientesTests/iDientesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E625E9B159CC334001E4EE3 /* Build configuration list for PBXProject "iDientes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E625ED2159CC334001E4EE3 /* Debug */,
+				2E625ED3159CC334001E4EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E625ED4159CC334001E4EE3 /* Build configuration list for PBXNativeTarget "iDientes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E625ED5159CC334001E4EE3 /* Debug */,
+				2E625ED6159CC334001E4EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E625ED7159CC334001E4EE3 /* Build configuration list for PBXNativeTarget "iDientesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E625ED8159CC334001E4EE3 /* Debug */,
+				2E625ED9159CC334001E4EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E625EB9159CC334001E4EE3 /* iDientes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E625EBA159CC334001E4EE3 /* iDientes.xcdatamodel */,
+			);
+			currentVersion = 2E625EBA159CC334001E4EE3 /* iDientes.xcdatamodel */;
+			path = iDientes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E625E98159CC334001E4EE3 /* Project object */;
+}
